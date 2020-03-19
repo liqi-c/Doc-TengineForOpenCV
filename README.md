@@ -7,7 +7,7 @@
     - Support ARM v7/v8 platform inference  accelerate . 
 
     -  Performance comparison (***CPU : armA53 ,A72 ; Min time:ms***)
-
+![image](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/performance.png)
 | Models | ArmA53-befer   | ArmA53-now  | ArmA72-befer  | ArmA72 -now  | 
 | ---       | ---                  | ---               | ---                 | ---                 |
 | MobileNet1.0 |              |                    |                      |
