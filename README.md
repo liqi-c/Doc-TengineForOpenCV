@@ -8,12 +8,6 @@
 
     -  Performance comparison (***CPU : armA53 ,A72 ; Min time:ms***)
 ![image](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/performance.png)
-| Models | ArmA53-befer   | ArmA53-now  | ArmA72-befer  | ArmA72 -now  | 
-| ---       | ---                  | ---               | ---                 | ---                 |
-| MobileNet1.0 |              |                    |                      |
-| SqueeseNet1.1 |  |  |  |
-| ResNet18 |  |  |  |
-| VGG16 |  |  |  |
 
 # Wiki 
 ```Tengine Build descripe  ``` 
@@ -22,7 +16,15 @@
     ``` Notice : Android NDK version must greater than r14 ```
 * linux :
     Just add -DWITH_TENGINE=ON . We use cross-compilation toolchain as OpenCV configure , through CC Pass to Tengine. 
-    
+    * Arm32:  arm-linux-gnueabihf
+       ```
+       sudo apt install g++-arm-linux-gnueabihf
+       ```
+       
+    * Arm64:  aarch64-linux-gnu
+        ```
+        sudo apt install g++-aarch64-linux-gnu 
+        ```
     
 # opencv.org 
 
