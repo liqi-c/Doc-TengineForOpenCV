@@ -18,10 +18,12 @@
 # Wiki 
 ```Tengine Build descripe  ``` 
 * Android : 
-    If  you know how to build OpenCV in android platform , you just need add -DWITH_TENGINE=ON . 
-        ``` Android NDK version must greater than r14 ```
+    If  you know how to build OpenCV in android platform , you just need add -DWITH_TENGINE=ON .   
+    ``` Notice : Android NDK version must greater than r14 ```
 * linux :
     Just add -DWITH_TENGINE=ON . We use cross-compilation toolchain as OpenCV configure , through CC Pass to Tengine. 
     
     
 # opencv.org 
+
+
