@@ -6,7 +6,7 @@
 * OAL inference Engine backend([Tengine](https://github.com/OAID/Tengine)) : 
     - Support ARM v7/v8 platform inference  accelerate . 
 
-    -  Performance comparison (***CPU : armA53 ,A72 ; Min time:ms***)
+    -  Performance comparison 
 ![image](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/performance.png)
 
 # Wiki 
