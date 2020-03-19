@@ -3,7 +3,7 @@
 # change log
 ### DNN module :
 
-* OAL inference Engine backend([Tengine](https://github.com/OAID/Tengine)) : 
+* [OAL](http://www.openailab.com/) inference Engine backend([Tengine](https://github.com/OAID/Tengine)) 
     - Support ARM v7/v8 platform inference  accelerate . 
 
     -  Performance comparison 
