@@ -7,7 +7,8 @@
     - Support ARM v7/v8 platform inference  accelerate . 
 
     -  Performance comparison 
-    ```chart
+ 
+ ```chart
 ,OpenCV-Original,OpenCV-Tengine
 MobileNet1.0,308.071,153.951
 SqueezeNet1.1,168.456,104.047
