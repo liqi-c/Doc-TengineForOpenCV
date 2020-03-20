@@ -7,20 +7,6 @@
     - Support ARM v7/v8 platform inference  accelerate . 
 
     -  Performance comparison 
- 
- ```chart
-,OpenCV-Original,OpenCV-Tengine
-MobileNet1.0,308.071,153.951
-SqueezeNet1.1,168.456,104.047
-ResNet18,754.538,466.863 
-VGG16,6749.415,3822.287 
-
-type: column
-title: Benchmark
-x.title: EAIDK610(1*Cortex-A72@1.8GHz)
-y.title: Speed
-y.suffix: ms
-```
 
 ![image](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/performance.png)
 
