@@ -8,8 +8,8 @@
 
     -  Performance comparison 
 
-![image](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/performance.png)
-
+![image](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/tengine-opencv-benchmark20200320-eaidk610.png)
+![image](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/tengine-opencv-benchmark20200320-SingalA72.png)
 
 # Wiki 
 ## Tengine Use Descripe  
