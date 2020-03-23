@@ -61,4 +61,19 @@ https://github.com/OAID/Tengine/wiki/Tengine%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B
         ```
 
 
+# OpenCV.org description-version 0.1
 
+> More and more application scenarios will migrate AI computing from the cloud to terminal devices, whether in security, transportation, manufacturing , Medical or autonomous driving, smart home and other fields due to cost, latency, bandwidth, power consumption, reliability and privacy issues. Hundreds of millions of devices will be intelligently upgraded. An emerging huge IoT AI application market (AI-IoT) is emerging. 
+> Behind the huge market opportunities, most embedded devices use Arm IP, such as Cortex-A and Cortex-M series.  We'd like to perform inference tasks on an embedded device. However, it is difficulties to reimplement deep Learning algorithms on Arm based hardware, which is trained on x86 based server with Nvidia GPU. The highest priority issue is inference speed, hardly to meet the requirement of the application.
+
+OpenCV (OpenCV-DNN) support execute CNN inference on arm-based embedded device without in-depth performance optimization. In order to enhance the CNN inference performance on the Arm platform, OpenCV integrate the Tengine as a high-performance arm computing library into the OpenCV DNN module, in the OpenCV 4.3 version for open source release. See the Benchmark in the Following picture. 
+
+[![image](https://github.com/liqi-c/Doc-TengineForOpenCV/raw/master/data/tengine-opencv-benchmark20200320-SingalA72.png)](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/tengine-opencv-benchmark20200320-SingalA72.png)
+
+[![image](https://github.com/liqi-c/Doc-TengineForOpenCV/raw/master/data/tengine-opencv-benchmark20200320-eaidk610.png)](https://github.com/liqi-c/Doc-TengineForOpenCV/blob/master/data/tengine-opencv-benchmark20200320-eaidk610.png)
+
+Except a high-performance arm computing library, Tengine is a application development platform for AIoT scenarios, launched by Open AI Lab which is dedicated to solving the fragmentation problem of AIoT industrial chain and accelerating the landing of AI industrialization. 
+
+Tengine is specially designed for AIoT scenarios, and it has several features, such as cross platform, heterogeneous scheduling, chip bottom acceleration, ultra light weight and independent, and complete development and deployment tool chain. Tengine is compatible with a variety of operating systems and deep learning algorithm framework, which simplifies and accelerates the rapid migration of scene oriented AI algorithm on embedded edge devices, as well as the actual application deployment.
+
+More info. in Tengine GitHub Homepage https://github.com/OAID/Tengine
