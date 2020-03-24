@@ -3,7 +3,7 @@
 
 * OAL inference Engine Back-end([Tengine](https://github.com/OAID/Tengine)) : 
     - Support Arm v7/v8 platform inference acceleration.   
- Performance comparison:
+ Performance comparison:  
  ![image](https://github.com/liqi-c/Doc-TengineForOpenCV/raw/master/data/tengine-opencv-benchmark20200320-SingalA72.png)
 # Wiki 
 ## Tengine User Guide  
@@ -84,4 +84,5 @@ In addition to including a high-performance arm computing library, Tengine is al
 accelerating the landing of AI industrialization.
 
 Tengine is specially designed for AIoT scenarios, and it has several features, such as cross hardware platform, heterogeneous scheduling, chip bottom acceleration, ultra-light weight, eployment tool chain. Compared with a variety of operating systems and deep learning algorithm framework, Tengine simplifies and accelerates the rapid migration of scene oriented AI algorithm on embedded edge devices, as well as the actual application deployment.  
+  
 ***More info in Tengine GitHub Homepage*** [https://github.com/OAID/Tengine](https://github.com/OAID/Tengine)
